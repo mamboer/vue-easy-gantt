@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$1" = "false" ]
 # not a pull request, deploy to github pages
-then ( cd public
+then ( cd dist
   git init
   git config user.name "LV Master"
   git config user.email "mamboer@gmail.com"
