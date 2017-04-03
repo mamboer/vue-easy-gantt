@@ -1,4 +1,8 @@
-<p align="center"><img width="200" src="https://cdn.rawgit.com/mamboer/vue-easy-gantt/49609585/example/assets/logo.png" style="padding: 20px;background:#6190e8"></p>
+<p align="center">
+  <span style="padding: 20px;background:#6190e8;display:inline-block">
+    <img width="200" src="https://cdn.rawgit.com/mamboer/vue-easy-gantt/49609585/example/assets/logo.png" />
+  </span>
+</p>
 <p align="center">
   <a href="https://travis-ci.org/mamboer/vue-easy-gantt"><img src="https://img.shields.io/travis/mamboer/vue-easy-gantt/master.svg"></a>
   <a href="https://codecov.io/github/mamboer/vue-easy-gantt?branch=master"><img src="https://img.shields.io/codecov/c/github/mamboer/vue-easy-gantt/master.svg"></a>
