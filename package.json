@@ -20,7 +20,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "release": "bash ./release.sh",
     "commit": "git-cz",
-    "changelog": "node build/changelog.js"
+    "changelog": "node build/changelog.js",
+    "deploy": "sh ./.travis/deploy.sh",
+    "clean": "rm -rf dist"
   },
   "keywords": [
     "vue",

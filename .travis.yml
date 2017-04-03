@@ -14,8 +14,10 @@ addons:
   ssh_known_hosts: github.com
 
 script:
-  - 'npm run build'
+  - 'npm run lint'
+  - 'npm run test'
   - 'npm run clean'
+  - 'npm run build'
   - 'npm run deploy  "${TRAVIS_PULL_REQUEST}"'
 
 branches:
@@ -28,3 +30,4 @@ after_success:
 env:
   global:
     - GH_REPO: "github.com/mamboer/vue-easy-gantt.git"
+    - secure: "eHKqhPvke4IhSasoqMBY0D+vXOEIyPwLV/ER1PMYDSuS/lMuy7uk5AMJTt8ASpRH9Zjnu+t39KOtitzTF+jnBh7WFB26ESy+AwmA5BBQZ7vM3dLe8hPwPU00+UsA/XpVOMqqOUS7NrA+TkwrlPhUSjcoKVl9X07Cd1TLN4GwzP26uahpx9dun8BSilW79pHXn9ebUnPLNA5WZGXxNhPPcOZwo5MHJODJzcHRT8ryqAPGlAZS7XjmC0daBED7Y6JWRDInaZXJ4ApP+U8FUMJbN7PJFqgGYOc6RDc4z3/TR1O0LHzYPUpEiZtUXi/hDebZ/0WIaMcwDJ7rlX+st2kceu+wMU5tvPDzz+F/3hyvOhnc5SRn/QzZcMKfk2HG7GcjAQYgd9mFzBEHYXksiYYU5piv3WmY71LCoUVIt2X9mvzpVKMYMEOpHqE8IehStS02fVW0fEJmir2zE0Ui0VtDPPfrmIkZjHZTeCKoERyqKSW1+J0hBEMR7L9U5GOe2JnSSqdIb3wdMYfyeLIghU+ls6QgwjRfV4iwUeCttI5kREF/Mh1xD04zUEdVRLJuhPxl162UxDub4ia+c9AN9sSe3gOIjBUjVTiat348ymtwUezpmF90uzvbNoFg4SVQRSCqIl/zgNZ1tq53jmpoi9bACtRI/e8hBWqsj2139/CLUh0="
