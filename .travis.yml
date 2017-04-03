@@ -1,0 +1,30 @@
+language: node_js
+
+sudo: false
+
+node_js:
+  - "7"
+
+cache:
+  apt: true
+  directories:
+    - node_modules
+
+addons:
+  ssh_known_hosts: github.com
+
+script:
+  - 'npm run build'
+  - 'npm run clean'
+  - 'npm run deploy  "${TRAVIS_PULL_REQUEST}"'
+
+branches:
+  only:
+    - master
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+env:
+  global:
+    - GH_REPO: "github.com/mamboer/vue-easy-gantt.git"
