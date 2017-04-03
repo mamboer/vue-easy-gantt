@@ -15,7 +15,6 @@ addons:
 
 script:
   - 'npm run lint'
-  - 'npm run test'
   - 'npm run clean'
   - 'npm run build'
   - 'npm run deploy  "${TRAVIS_PULL_REQUEST}"'
