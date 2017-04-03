@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="http://faso.me/vue-easy-gantt/static/img/logo-inverse.png" />
+  <img width="200" src="http://faso.me/vue-easy-gantt/static/img/logo-inverse.png"/>
 </p>
 <p align="center">
   <a href="https://travis-ci.org/mamboer/vue-easy-gantt"><img src="https://img.shields.io/travis/mamboer/vue-easy-gantt/master.svg"></a>
