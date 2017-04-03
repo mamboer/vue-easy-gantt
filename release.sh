@@ -10,7 +10,7 @@ then
 
   # lint and test
   npm run lint 2>/dev/null
-  npm test 2>/dev/null
+  npm run unit1 2>/dev/null
 
   # build
   npm run build
