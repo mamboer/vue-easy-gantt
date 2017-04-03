@@ -4,8 +4,9 @@
     <p class="desc">{{msg}}</p>
     <h2>Essential Links</h2>
     <ul>
-      <li><a href="https://faso.me/easygantt" target="_blank">Docs</a></li>
+      <li><a href="https://faso.me/vue-ease-gantt" target="_blank">Demo</a></li>
       <li><a href="https://github.com/mamboer/vue-easy-gantt" target="_blank">Github</a></li>
+      <li><a href="https://github.com/mamboer/vue-easy-gantt/blob/master/README.md" target="_blank">Doc</a></li>
     </ul>
   </div>
 </template>
