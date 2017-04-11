@@ -11,7 +11,7 @@
 
 ## Intro
 
-An simple gantt chart plugin for presenting user tasks, making love with Vue.js 2.0
+An simple gantt chart plugin for presenting user tasks, love with Vue.js 2.0
 
 ### Features
 - Vue.js 2.0, support both of Client Renderring and SSR
