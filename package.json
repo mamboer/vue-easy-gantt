@@ -1,7 +1,7 @@
 {
   "name": "vue-easy-gantt",
   "version": "1.0.0",
-  "description": "An simple gantt chart plugin for presenting weekly tasks, making love with Vue.js 2.0",
+  "description": "A simple Vue.js gantt chart plugin for presenting weekly tasks.",
   "main": "dist/vue-easy-gantt.js",
   "files": [
     "dist",
