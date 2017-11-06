@@ -1,6 +1,6 @@
 {
   "name": "vue-easy-gantt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Vue.js gantt chart plugin for presenting weekly tasks.",
   "main": "dist/vue-easy-gantt.js",
   "files": [
@@ -75,6 +75,7 @@
     "html-webpack-plugin": "^2.28.0",
     "http-proxy-middleware": "^0.17.4",
     "inject-loader": "^3.0.0",
+    "json-loader": "^0.5.7",
     "karma": "^1.5.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-coverage": "^1.1.1",

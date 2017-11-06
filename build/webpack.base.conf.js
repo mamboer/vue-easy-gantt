@@ -50,6 +50,11 @@ module.exports = {
         include: [resolve('src'), resolve('test'), resolve('example')]
       },
       {
+        test: /\.json$/,
+        loader: 'json-loader',
+        include: [resolve('src'), resolve('test'), resolve('example')]
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
         options: {

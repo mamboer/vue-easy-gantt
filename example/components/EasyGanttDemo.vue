@@ -7,6 +7,7 @@
 <script>
 import moment from 'moment'
 import EasyGantt from '@/components/EasyGantt'
+import demoData from '../assets/data.json'
 
 export default {
   data () {
@@ -27,6 +28,8 @@ export default {
       
     }, res => {
       //error
+      this.utasks = demoData.items
+      this.sdate = demoData.sdate
     })
   }
 }
