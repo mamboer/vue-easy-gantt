@@ -21,7 +21,7 @@ export default {
     EasyGantt
   },
   mounted () {
-    this.$http.get('http://beta.json-generator.com/api/json/get/NJDAlJKhf').then(res => {
+    this.$http.get('http://next.json-generator.com/api/json/get/NJDAlJKhf').then(res => {
       // set data on vm
       this.utasks = res.body.items
       this.sdate = res.body.sdate
